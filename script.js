@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
       messages.push("Email must contain both '@' and '.' characters.");
       
     }
-    if (username.length < 8) {
+    if (password.length < 8) {
       isValid = false;
       message.push("password should be more htan 3 character!");
 
